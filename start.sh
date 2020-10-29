@@ -12,3 +12,7 @@ while IFS= read -r line
 do
   rm -f "$line"
 done < "$input"
+git add .
+git commit -m "update graph"
+git push origin main
+echo "just updated!"
