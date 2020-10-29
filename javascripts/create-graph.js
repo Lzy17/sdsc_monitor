@@ -38,7 +38,7 @@ function createGraph(data) {
 			}
 			f = p + 1;
 			ans[p].push(data[i][f]);
-			mation[p].push(sums * 100);
+			mation[p].push(sums/60);
 			sums += parseFloat(data[i][f])
 			if(p == 0){
 		}
