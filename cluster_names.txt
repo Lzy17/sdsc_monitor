@@ -1,3 +1,8 @@
 jacob-9
 zihao-gromacs10.23-3
 zihao10-24
+cesm_dev
+cesm_bgfs
+sdsc-monitor
+gpu-run
+gromacs-zihao

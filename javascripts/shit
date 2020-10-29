@@ -1,0 +1,29 @@
+var cost = c3.generate({
+  bindto: '#chart',
+    data: {
+        columns: [
+          price_1,
+    price_2,
+    price_3
+
+        ]
+    },
+    axis: {
+        x: {
+            type: 'category',
+            categories: times,
+            tick: {
+              multiline: false,
+                culling: {
+                    max: 15
+                }
+            }
+        }
+    },
+    zoom: {
+        enabled: true
+    },
+    legend: {
+        position: 'right'
+    }
+});
