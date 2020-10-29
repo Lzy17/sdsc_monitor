@@ -2,7 +2,7 @@
  * Parse the data and create a graph with the data.
  */
 function parseData(createGraph) {
-	Papa.parse("../data/2.csv", {
+	Papa.parse("../sdsc_monitor/data/2.csv", {
 		download: true,
 		complete: function(results) {
 			createGraph(results.data);
