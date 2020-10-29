@@ -13,7 +13,7 @@ function parseData(createGraph) {
 
 function createGraph(data) {
 	var times = [];
-	var price_1 = [];
+	var price_1 = [""];
 	var price_2 = ["price_2"];
 	var price_3 = ["price_3"];
 	
