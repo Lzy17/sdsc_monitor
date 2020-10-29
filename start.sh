@@ -1,4 +1,5 @@
 #!/bin/bash
+PATH="/usr/local/bin:/usr/bin:/bin"
 input="cluster_names.txt"
 while IFS= read -r line
 do
