@@ -14,14 +14,14 @@ function parseData(createGraph) {
 function createGraph(data) {
 	var times = [];
 	var price_1 = [""];
-	var price_2 = ["price_2"];
+	var shit = ["price_2"];
 	var price_3 = ["price_3"];
 	
 
 	for (var i = 1; i < data.length; i++) {
 		times.push(data[i][0]);
 		price_1.push(data[i][1]);
-		price_2.push(data[i][2]);
+		shit.push(data[i][2]);
 		price_3.push(data[i][3]);
 	}
 	console.log(times);
@@ -34,7 +34,7 @@ function createGraph(data) {
 	    data: {
 	        columns: [
 	        	price_1,
-			price_2,
+			shit,
 			price_3
 			
 	        ]
