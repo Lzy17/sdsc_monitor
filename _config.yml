@@ -1,1 +1,7 @@
-theme: jekyll-theme-hacker
+theme: landscape
+
+title: sdsc_monitor
+description: sdsc_monitor
+baseurl: "/sdsc_monitor" # the subpath of your site, e.g. /blog
+
+
