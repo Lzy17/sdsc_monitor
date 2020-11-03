@@ -27,8 +27,6 @@ def store(arr, name):
 
     with open('data.csv','r') as fd:
         if(row_count > 0):
-            print('here')
-            print('fuck ')
             col_count = len(next(fd))
             print('col count')
             print(col_count)

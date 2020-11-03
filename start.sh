@@ -16,7 +16,4 @@ done < "$input"
 git add .
 git commit -m "update graph"
 git push origin main --force
-<<<<<<< HEAD
 echo "just updated!"
-=======
->>>>>>> a0afa04ce73e555f017883bed3e37f961a1484b5
