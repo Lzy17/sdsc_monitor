@@ -14,5 +14,5 @@ do
 done < "$input"
 git add .
 git commit -m "update graph"
-git push origin main
+git push origin main --force
 echo "just updated!"
