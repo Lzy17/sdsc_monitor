@@ -18,7 +18,3 @@ jacob-8
 max-io500-beegfs-slurm-2
 max-io500-beegfs-slurm-ramdisk-2
 MaxBuildSlurm
-<<<<<<< HEAD
-max-io500-bgfs-ramdisk
-=======
->>>>>>> a0afa04ce73e555f017883bed3e37f961a1484b5
