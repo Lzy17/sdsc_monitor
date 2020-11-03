@@ -1,18 +1,19 @@
 #!/bin/bash
 PATH="/usr/local/bin:/usr/bin:/bin"
 input="cluster_names.txt"
-while IFS= read -r line
+while IFS= read -r clname
 do
-  echo "$line"
-  cyclecloud show_nodes -c "$line" -l >> "$line"
+  echo "$clname"
+  cyclecloud show_nodes -c "$clname" -l >> "$clname"
 done < "$input"
 
 python scrape.py
 
-while IFS= read -r line
+while IFS= read -r clname
 do
-  rm -f "$line"
+  rm -f "$clname"
 done < "$input"
+git log > /temp/junk
 git add .
 git commit -m "update graph"
 git push origin main --force
