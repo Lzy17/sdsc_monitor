@@ -14,9 +14,6 @@ function parseData(createGraph) {
 function createGraph(data) {
 
 
-
-
-
 	var times = [];
 	var ans = [];
 	var mation = [];
@@ -93,6 +90,7 @@ function createGraph(data) {
 		bindto: '#cost',
 	    data: {
 	        columns: mation,
+					rows: times,
 	        types: {
 	        }
 	    },
