@@ -90,7 +90,6 @@ function createGraph(data) {
 		bindto: '#cost',
 	    data: {
 	        columns: mation,
-					rows: times,
 	        types: {
 	        }
 	    },
